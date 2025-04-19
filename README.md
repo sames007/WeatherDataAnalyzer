@@ -31,9 +31,9 @@ Date,Temperature,Humidity,Precipitation
 -switch with pattern matching: For cleaner and modern conditional logic.
 -Text Blocks: For clean and readable multi-line output.
 
-📞 Example Output
-Weather Data Summary:
+## 📞 Example Output
+--Weather Data Summary:
 ---------------------
-Average Temperature for August: 33.75°C
-Number of days above 30°C: 2
-Number of rainy days: 1
+-Average Temperature for August: 33.75°C
+-Number of days above 30°C: 2
+-Number of rainy days: 1
