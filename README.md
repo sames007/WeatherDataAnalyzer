@@ -21,19 +21,19 @@ Date,Temperature,Humidity,Precipitation
 ```
 
 ## 🚀 How to Run
--Make sure you have Java 17 or later installed.
--Place your weatherdata.csv file in the resources directory.
--Run the main() method in WeatherDataAnalyzer.java.
+- Make sure you have Java 17 or later installed.
+- Place your weatherdata.csv file in the resources directory.
+- Run the main() method in WeatherDataAnalyzer.java.
 
 ## 🧠 Key Java Features Used
--record: To define simple data holders.
--Stream API: For filtering and summarizing data.
--switch with pattern matching: For cleaner and modern conditional logic.
--Text Blocks: For clean and readable multi-line output.
+- record: To define simple data holders.
+- Stream API: For filtering and summarizing data.
+- switch with pattern matching: For cleaner and modern conditional logic.
+- Text Blocks: For clean and readable multi-line output.
 
 ## 📞 Example Output
---Weather Data Summary:
+-- Weather Data Summary:
 ---------------------
--Average Temperature for August: 33.75°C
--Number of days above 30°C: 2
--Number of rainy days: 1
+- Average Temperature for August: 33.75°C
+- Number of days above 30°C: 2
+- Number of rainy days: 1
