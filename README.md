@@ -1,17 +1,44 @@
-# Weather Data Analyzer
+🌦️ Weather Data Analyzer
+This is a simple Java application that reads weather data from a CSV file and performs basic analysis.
 
-This project is a simple app that reads weather data and shows basic information using modern Java (from Java 15 to Java 23). It uses new features like records, enhanced switch statements, text blocks, lambdas, and streams.
+📋 What It Does
+This app reads data like date, temperature, humidity, and precipitation from a CSV file and provides the following:
 
-## What It Does
+✅ Calculates the average temperature for a specific month
 
-- **Read CSV Data:** Loads weather data from the `weatherdata.csv` file.
-- **Average Temperature:** Computes the average temperature for a chosen month.
-- **Hot Days List:** Shows days when the temperature is above a set value.
-- **Rainy Days Count:** Counts the number of days with rain.
-- **Weather Categories:** Classifies days as "Hot", "Warm", or "Cold" using an enhanced switch.
+🔥 Lists all days with temperature above a certain value
 
-## Project Files
+🌧️ Counts the number of rainy days
 
-- **WeatherDataAnalyzer.java:** Contains all the code for reading data and performing calculations.
-- **weatherdata.csv:** A sample file with weather data (Date, Temperature, Humidity, Precipitation).
-- **README.md:** This file, which explains what the project does and how to use it.
+🌡️ Classifies each day's weather as Hot, Warm, or Cold
+
+🔍 Uses modern Java features like records, text blocks, and pattern matching in switch statements
+
+📁 Sample CSV Format
+The app expects a CSV file like this in the resources folder:
+Date,Temperature,Humidity,Precipitation
+2023-08-01,32.5,65,0.0
+2023-08-02,35.0,60,0.2
+
+🚀 How to Run
+Make sure you have Java 17 or later installed.
+
+Place your weatherdata.csv file in the resources directory.
+
+Run the main() method in WeatherDataAnalyzer.java.
+
+🧠 Key Java Features Used
+record: To define simple data holders.
+
+Stream API: For filtering and summarizing data.
+
+switch with pattern matching: For cleaner and modern conditional logic.
+
+Text Blocks: For clean and readable multi-line output.
+
+📞 Example Output
+Weather Data Summary:
+---------------------
+Average Temperature for August: 33.75°C
+Number of days above 30°C: 2
+Number of rainy days: 1
