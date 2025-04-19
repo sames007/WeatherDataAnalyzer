@@ -32,7 +32,7 @@ Date,Temperature,Humidity,Precipitation
 - Text Blocks: For clean and readable multi-line output.
 
 ## 📞 Example Output
--- Weather Data Summary:
+Weather Data Summary:
 ---------------------
 - Average Temperature for August: 33.75°C
 - Number of days above 30°C: 2
